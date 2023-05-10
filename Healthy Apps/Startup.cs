@@ -78,6 +78,7 @@ namespace Healthy_Apps
             );
 
 
+            app.UseCors("AllowAll");
 
             app.UseEndpoints(endpoints =>
             {
